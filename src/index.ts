@@ -3,7 +3,7 @@ const person = {
   designation: 'Jedi Master ',
 };
 
-function trainJedi(jediWarrion) {
+function trainJedi(jediWarrion: { name: string; designation: string }) {
   if (jediWarrion.name === 'Yoda') {
     console.log('No need! already trained');
   }
