@@ -7,6 +7,7 @@ function trainJedi(jediWarrion: { name: string; designation: string }) {
   if (jediWarrion.name === 'Yoda') {
     console.log('No need! already trained');
   }
+
   console.log(`Training ${jediWarrion.name} complete`);
 }
 
